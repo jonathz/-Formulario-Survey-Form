@@ -1,0 +1,42 @@
+body { 
+    background-color:rgb(42 167 132);
+    display: flex;
+    justify-content: center;
+    color: white;
+  }
+main{
+    text-align: center;
+}
+#survey-form{
+    background-color: rebeccapurple;
+    font-size: 2.5vh;
+    line-height: 2;
+    width: 500px;
+    display: flex;
+    flex-direction: column;
+    align-items: baseline;
+    justify-content: space-between;
+    border-style: ;
+
+    border-right:20px outset #701bce;
+    border-top:3px inset #701bce;
+    padding: 30px;
+    
+}
+.caja-formulario{
+    display: flex;
+    flex-direction: column;
+    align-items: baseline;
+    margin: 10px;
+}
+ #name,#email,#number,#textarea{
+     width: 100%;
+     margin-bottom: 10px;
+ }
+  
+#send{
+    align-items: center;
+}
+  
+  
+  
