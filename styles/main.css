@@ -11,7 +11,7 @@ main{
     background-color: rebeccapurple;
     font-size: 2.5vh;
     line-height: 2;
-    width: 500px;
+    width: 25vw;
     display: flex;
     flex-direction: column;
     align-items: baseline;
@@ -32,10 +32,11 @@ main{
     align-items: baseline;
     margin: 10px;
 }
- #name,#email,#number,#textarea{
+ #name,#email,#number,#textarea, #dropdown{
      width: 100%;
      margin-bottom: 10px;
  }
+ 
   
 #send{
     align-items: center;
