@@ -16,13 +16,16 @@ main{
     flex-direction: column;
     align-items: baseline;
     justify-content: space-between;
-    border-style: ;
-
-    border-right:20px outset #701bce;
+    border-right: 25px outset #701bce;
     border-top:3px inset #701bce;
     padding: 30px;
+    position: relative;
+    border-radius:10px 0px 50px 0px;
     
+  
 }
+
+
 .caja-formulario{
     display: flex;
     flex-direction: column;
